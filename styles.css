@@ -1,0 +1,95 @@
+.head {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 80px;
+}
+
+.quick-links {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.quick-links>:nth-child(n) {
+    padding: 5px;
+    font: Roboto;
+    size: 14px;
+    line-height: 16px;
+}
+
+.headline-top {
+    padding: 100px 320px 100px 320px;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+.blog-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    gap: 10.5px;
+    padding-left: 336px;
+    padding-right: 336px;
+}
+
+.theme {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.headline {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 21.6px;
+}
+
+.date {
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    line-height: 16.8px;
+}
+
+.element1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 16px;
+}
+
+.element1>:first-child {
+    max-width: min-content;
+    max-height: max-content;
+}
+
+.element1>:first-child>.headline {
+    font-size: 25px;
+    line-height: 33.6px;
+}
+
+.element1>:last-child {
+    display: flex;
+    flex-direction: column;
+}
+
+.element2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 16px;
+}
+
+.blog-element {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    max-height: fit-content;
+}
